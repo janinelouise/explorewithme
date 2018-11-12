@@ -1,0 +1,98 @@
+body {
+	text-align: center;
+	color: #fff;
+}
+
+.main-header {
+	margin-bottom: 10px;
+}
+
+.nav-bar {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: repeat(4,1fr);
+}
+
+
+/* SHOWCASE SECTION */
+
+.showcase {
+	margin-bottom: 20px;
+	padding: 250px;
+	background-image: url(../images/sea.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow: 0 0 5px #7DABD0;
+	
+}
+.button {
+	padding: 10px 25px;
+	background: #CFE7EA;
+	color: #ESE1EO
+}
+.button:hover {
+	background: pink;
+}
+a {
+	text-decoration: none;
+}
+
+
+.main-article {
+	display: grid;
+	grid-gap: 20px;
+	grid-template-columns: 2fr 1fr;
+	background: #7DABD0;
+	margin-bottom: 10px;
+}
+.main-article:hover {
+	background: #ESE1EO;
+	color: #FBC1AD;
+}
+
+/*MAIN ARTICLE LEFT */
+.main-article-left {
+	background: #DCCBED;
+	padding: 90px;
+	box-shadow: 0 0 10px black;
+	grid-template-columns: 1fr 1fr;
+	display:grid;
+}
+.main-article-left p {
+	margin: 40px 0 60px 0;
+	font-size: 25px;
+}
+.TRAVEL h3{
+	color: black;
+	
+	
+	
+}
+
+/*MAIN ARTICLE RIGHT */
+
+.main-article-right {
+	padding: 20px;
+	background: #ACE0DD;
+	box-shadow: 0 0 15px black;
+	display:grid;
+	grid-template-columns: 1fr;
+}
+.main-article-right p{
+	color:black;
+	font-family: Adobe Gothic Std B;
+	margin: 40px 0 70px 0;
+	
+}
+
+.footer {
+	padding: 25px;
+	background: #79c0ca;
+	margin-bottom: 10px;
+}	
+.footer:hover {
+	background: #F56E4A;
+	color: #7DABD0
